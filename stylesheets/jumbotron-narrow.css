@@ -60,9 +60,28 @@ body {
 }
 
 .border:hover{
-  background-color: #EEE;;
+  background-color: #EEE;
   border-radius: 5px;
 }
+
+.a-btn:link{
+  text-decoration:none;
+  color:black;
+}
+.a-btn:visited{
+  text-decoration:none;
+  color:black;
+}
+.a-btn:hover{
+  text-decoration:none;
+  color:black;
+}
+.a-btn:active{
+  text-decoration:none;
+  color:black;
+}
+
+
 
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
