@@ -62,6 +62,10 @@ body {
   margin-top: 28px;
 }
 
+.active-sm{
+  background-color: #EEE;
+}
+
 .border:hover{
   background-color: #EEE;
   border-radius: 5px;
@@ -84,7 +88,9 @@ body {
   color:black;
 }
 
-
+.noIbar {
+cursor:default;
+}
 
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
