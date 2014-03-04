@@ -55,8 +55,7 @@ body {
 }
 
 .homeimage{
-    background-image: url(../images/background-grey-4.jpg);
-    background-size: cover;
+    background-color: black;
     color: white;
   }
 
