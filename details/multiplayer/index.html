@@ -1,25 +1,9 @@
 ---
-layout: default_subdir
+layout: default
 ---
  
 <section class="content">
-      <div class="header">
-        <ul class="nav nav-pills pull-right">
-          <li><a href="/RATS">Home</a></li>
-          <li class="active"><a href="/RATS/about/">About</a></li>
-          <li><a href="/RATS/contact">Contact</a></li>
-        </ul>
-        <h3 class="text-muted">Rats</h3>
-        <ul class="nav nav-tabs pull-right">
-              <li><a class="btn-sm" href="/RATS/details/bulletdetection">Bullet Detection</a></li>
-              <li><a class="btn-sm" href="/RATS/details/chrono">Chrono</a></li>
-              <li class="active-sm"><a class="btn-sm noIbar">Multi Player</a></li>
-              <li><a class="btn-sm" href="/RATS/details/scoring">Scoring</a></li>
-              <li><a class="btn-sm" href="/RATS/details/targetadvance">Target Advance</a></li>
-              <li><a class="btn-sm" href="/RATS/details/wireless">Wireless</a></li>
-        </ul>
-      </div>
-
+      {% include header.html currentpage="multiplayer" %}
       <div class="jumbotron" style="padding-top:5px; padding-bottom:5px">
         <h1>This is the RATS</h1>
         <p class="lead">The Details - Multi Player</p>
