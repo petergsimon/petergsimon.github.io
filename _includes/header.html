@@ -7,32 +7,32 @@
   <h3 class="text-muted">Rats</h3>
   <ul class="nav nav-pills pull-right">
     {% if include.currentpage == "bulletdetection" %}
-    <li class="active"><a class="btn-sm noIbar">Bullet Detection</a></li>
+    <li class="active-sm"><a class="btn-sm noIbar">Bullet Detection</a></li>
     {% else %}
     <li><a class="btn-sm" href="/RATS/details/bulletdetection">Bullet Detection</a></li>
     {% endif %}
     {% if include.currentpage == "chrono" %}
-    <li class="active"><a class="btn-sm noIbar">Chrono</a></li>
+    <li class="active-sm"><a class="btn-sm noIbar">Chrono</a></li>
     {% else %}
     <li><a class="btn-sm" href="/RATS/details/chrono">Chrono</a></li>
     {% endif %}
     {% if include.currentpage == "multiplayer" %}
-    <li class="active"><a class="btn-sm noIbar">Multi Player</a></li>
+    <li class="active-sm"><a class="btn-sm noIbar">Multi Player</a></li>
     {% else %}
     <li><a class="btn-sm" href="/RATS/details/multiplayer">Multi Player</a></li>
     {% endif %}
     {% if include.currentpage == "scoring" %}
-    <li class="active"><a class="btn-sm noIbar">Scoring</a></li>
+    <li class="active-sm"><a class="btn-sm noIbar">Scoring</a></li>
     {% else %}
     <li><a class="btn-sm" href="/RATS/details/scoring">Scoring</a></li>
     {% endif %}
-        {% if include.currentpage == "targetadvance" %}
-    <li class="active"><a class="btn-sm noIbar">Target Advance/a></li>
+    {% if include.currentpage == "targetadvance" %}
+    <li class="active-sm"><a class="btn-sm noIbar">Target Advance</a></li>
     {% else %}
     <li><a class="btn-sm" href="/RATS/details/targetadvance">Target Advance</a></li>
     {% endif %}
-        {% if include.currentpage == "wireless" %}
-    <li class="active"><a class="btn-sm noIbar">Wireless</a></li>
+    {% if include.currentpage == "wireless" %}
+    <li class="active-sm"><a class="btn-sm noIbar">Wireless</a></li>
     {% else %}
     <li><a class="btn-sm" href="/RATS/details/wireless">Wireless</a></li>
     {% endif %}
