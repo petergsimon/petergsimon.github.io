@@ -76,22 +76,15 @@ body {
   border-radius: 5px;
 }
 
-.a-btn:link{
+.a-btn:link, .a-btn:visited,
+.a-btn:hover, .a-btn:active{
   text-decoration:none;
   color:#2a2c2e;
 }
-.a-btn:visited{
-  text-decoration:none;
-  color:#2a2c2e;
-}
-.a-btn:hover{
-  text-decoration:none;
-  color:#2a2c2e;
-}
-.a-btn:active{
-  text-decoration:none;
-  color:#2a2c2e;
-}
+
+.btn-sm, .btn-group-sm > .btn {
+    padding: 0px 0px;
+  }
 
 .noIbar {
 cursor:default;
