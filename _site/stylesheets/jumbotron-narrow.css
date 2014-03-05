@@ -55,7 +55,7 @@ body {
 }
 
 .homeimage{
-    background-color: black;
+    background-color: #2a2c2e;
     color: white;
   }
 
@@ -78,19 +78,19 @@ body {
 
 .a-btn:link{
   text-decoration:none;
-  color:black;
+  color:#2a2c2e;
 }
 .a-btn:visited{
   text-decoration:none;
-  color:black;
+  color:#2a2c2e;
 }
 .a-btn:hover{
   text-decoration:none;
-  color:black;
+  color:#2a2c2e;
 }
 .a-btn:active{
   text-decoration:none;
-  color:black;
+  color:#2a2c2e;
 }
 
 .noIbar {
