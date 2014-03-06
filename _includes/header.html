@@ -1,13 +1,29 @@
 <div class="header">
   <ul class="nav nav-pills pull-right">
+    {% if include.mainpage == "home" %}
+      <li class="active"><a href="/RATS/home/">Home</a></li>
+    {% else %}
+      <li><a href="/RATS/home/">Home</a></li>
+    {% endif %}
+    {% if include.mainpage == "about" %}
+      <li class="active"><a href="/RATS/about/">About</a></li>
+    {% else %}
+      <li><a href="/RATS/about/">About</a></li>
+    {% endif %}
+    {% if include.mainpage == "contact" %}
+      <li class="active"><a href="/RATS/contact/">Contact</a></li>
+    {% else %}
+      <li><a href="/RATS/contact/">Contact</a></li>
+    {% endif %}
+    <!--
     <li><a href="/RATS">Home</a></li>
     <li class="active"><a href="/RATS/about/">About</a></li>
-    <li><a href="/RATS/contact">Contact</a></li>
+    <li><a href="/RATS/contact">Contact</a></li> -->
   </ul>
   <h3 class="text-muted">Rats</h3>
 
 <!--<li class="active noIbar">Wireless</li>-->
-
+{% if include.mainpage == "about" %}
   <ol class="breadcrumb">
     {% if include.currentpage == "bulletdetection" %}
       <li class="active noIbar btn-sm">Bullet Detection</li>
@@ -40,4 +56,5 @@
       <li class="btn-sm"><a href="/RATS/details/wireless">Wireless</a></li>
     {% endif %}
   </ol>
+{% endif %}
 </div>
