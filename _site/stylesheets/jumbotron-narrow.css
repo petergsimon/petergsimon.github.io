@@ -35,9 +35,9 @@ body {
 }
 
 /* Customize container */
-@media (min-width: 768px) {
+@media (min-width: 668px) {
   .container {
-    max-width: 730px;
+    max-width: 630px;
   }
 }
 .container-narrow > hr {
@@ -58,6 +58,14 @@ body {
     background-color: #2a2c2e;
     color: white;
   }
+
+  #share-buttons img {
+width: 32px;
+padding: 2px;
+border: 0;
+box-shadow: 0;
+display: inline;
+}
 
 /* Supporting marketing content */
 .marketing {
@@ -90,8 +98,14 @@ body {
 cursor:default;
 }
 
+.center{
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* Responsive: Portrait tablets and up */
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 480px) {
   /* Remove the padding we set earlier */
   .header,
   .marketing,
