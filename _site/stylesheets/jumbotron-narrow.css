@@ -59,12 +59,20 @@ body {
     color: white;
   }
 
-  #share-buttons img {
+#share-buttons img {
 width: 32px;
 padding: 2px;
 border: 0;
 box-shadow: 0;
 display: inline;
+}
+
+.centered{
+  height: 20px;
+  width: 200px;
+  background: #222;
+  margin: 0 auto;
+
 }
 
 /* Supporting marketing content */
